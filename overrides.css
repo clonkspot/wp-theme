@@ -21,7 +21,7 @@ header .language {
   height: auto;
 }
 
-ul.archives {
+ul.collapsing.archives.list {
   list-style-type: none;
 }
 
