@@ -1,0 +1,13 @@
+/* Some overrides necessary for the blog. */
+
+body {
+  font-size: 15px;
+}
+
+header nav {
+  padding-top: 45px;
+}
+
+header .language {
+  display: none;
+}
