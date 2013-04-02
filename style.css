@@ -1,0 +1,114 @@
+/*   
+Theme Name: Clonkspot Theme
+Theme URI: http://white30.de/clonkspot
+Description: Theme for Clonkspot blog
+Author: Luchs
+Template: thematic
+Version: 1.0
+Tags: Thematic
+*/
+
+/* Import original style */
+@import url('../thematic/style.css');
+
+/*#blog-title img, .entry-content img {
+	padding:4px;
+	border:1px solid #cccccc;
+}*/
+
+/* Weniger Abstand für das Logo */
+#branding {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 1170px;
+	overflow: hidden;
+}
+
+/* zur Anpassung per JS */
+#branding img {
+	position: relative;
+	left: 0px;
+}
+
+#main {
+	padding-top: 33px;
+	width: 80%;
+	max-width: 1170px;
+}
+
+#container {
+	width: 65%;
+}
+
+#content {
+	width: auto;
+	margin-left: 0px;
+}
+
+.main-aside {
+	width: 230px;
+	right: 0px;
+}
+
+/* Archiv */
+
+#collapsible-archive ul {
+	list-style-type: none;
+}
+
+#collapsible-archive > ul {
+	margin-left: 0;
+}
+
+/* zusätzlicher Abstand nur für Artikel */
+#collapsible-archive li li li+li /* o_O */{
+	margin-top: 10px;
+}
+
+/* Tag cloud */
+
+.widget_tag_cloud a {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+/* eigene Farben */
+
+body {
+	color: #333333;
+}
+
+a:link {
+	color:#5588aa;
+	text-decoration:none;
+}
+a:visited {
+	color:#999999;
+	text-decoration:none;
+}
+a:hover {
+	color:#5588aa !important;
+	text-decoration:underline;
+}
+
+.entry-title {
+	font-family: "Georgia", serif;
+}
+
+.entry-content {
+	font-family: "Verdana", sans-serif;
+	font-size: 13px;
+}
+
+.entry-content img {
+	max-width: 100%;
+	height: auto;
+}
+
+/*.aside a:active, .aside a:hover, .entry-meta a:active, .entry-meta a:hover { 
+	color: #5588aa;
+}*/
+
+q {
+	color: #999999;	
+}
