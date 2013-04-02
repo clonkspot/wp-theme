@@ -11,3 +11,7 @@ header nav {
 header .language {
   display: none;
 }
+
+#content {
+  line-height: 1.8;
+}
