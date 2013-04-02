@@ -21,3 +21,7 @@ header .language {
   height: auto;
 }
 
+ul.archives {
+  list-style-type: none;
+}
+
