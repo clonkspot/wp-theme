@@ -17,7 +17,7 @@
 		<a href="/">
 			<img src="/images/home.png" alt="Home">
 		</a>
-		<a href="/blog">
+		<a href="/blog" class="active">
 			<b>Blog</b>
 			<small>unsere Gedanken zu Clonk</small>
 		</a>
