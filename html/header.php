@@ -21,11 +21,11 @@
 			<b>Blog</b>
 			<small>unsere Gedanken zu Clonk</small>
 		</a>
-		<a href="/cgi-bin/forum/forum.pl">
+		<a href="/cgi-bin/forum/forum.pl" style="width: 130px">
 			<b>Foren</b>
 			<small>Nuschelei frei Haus</small>
 		</a>
-		<a href="/comic">
+		<a href="/comic" style="width: 110px">
 			<b>Comics</b>
 			<small>einfach Clonk</small>
 		</a>
@@ -33,7 +33,7 @@
 			<b>ClonkForge</b>
 			<small>stell dein Projekt vor</small>
 		</a>
-		<a href="http://clonk.de/">
+		<a href="http://clonk.de/" style="width: 175px">
 			<b>Offizielle Website</b>
 			<small>Clonks Heimat</small>
 		</a>
