@@ -25,3 +25,7 @@ ul.collapsing.archives.list, ul.collapsing.archives.list ul {
   list-style-type: none;
 }
 
+/* Fix huge indentation of nested comments. */
+#comments-list .children {
+  margin-left: 0;
+}
