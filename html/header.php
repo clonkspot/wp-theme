@@ -21,7 +21,7 @@
 			<b>Blog</b>
 			<small>unsere Gedanken zu Clonk</small>
 		</a>
-		<a href="/cgi-bin/forum/forum.pl" style="width: 130px">
+		<a href="/forum/forum.pl" style="width: 130px">
 			<b>Foren</b>
 			<small>Nuschelei frei Haus</small>
 		</a>
