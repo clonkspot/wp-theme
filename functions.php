@@ -1,9 +1,13 @@
 <?php
 
+// Get both site header and footer from the frontend app.
+$layout = json_decode(file_get_contents('https://clonkspot.org/_layout'));
+
 // Include our site header.
 
 function clonkspot_header() {
-  include 'html/header.php';
+  global $layout;
+  echo $layout->header;
 }
 add_action('thematic_before', 'clonkspot_header');
 
@@ -45,7 +49,8 @@ function clonkspot_comment_tree() { ?>
 add_filter('thematic_belowcommentsform', 'clonkspot_comment_tree');
 
 function clonkspot_footer() {
-  include 'html/footer.php';
+  global $layout;
+  echo $layout->footer;
 }
 add_action('thematic_after', 'clonkspot_footer');
 
