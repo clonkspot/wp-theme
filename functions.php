@@ -1,5 +1,11 @@
 <?php
 
+function clonkspot_body_class($c) {
+  $c[] = 'clonkspot';
+  return $c;
+}
+add_filter('body_class', 'clonkspot_body_class');
+
 // Include our site header.
 function clonkspot_header() {
   include '../layout/header-de.html';
